@@ -1,0 +1,100 @@
+/* Voici les feuilles de style des éléments de la page d'accueil */
+
+.logo{
+    float: left;
+    position: relative;
+    top: 8px;
+}
+
+#logo{
+    width: 100px;
+    height: 60px;
+}
+
+.titre{
+    float: right;
+    position: relative;
+    top: 23px;
+    right: 15px;
+}
+
+#titre{
+    color: white;
+    font-size:27px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button{
+    background-color: rgb(39, 35, 35);
+    color: white;
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+    height: 80px;
+    width: 318px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+
+
+#button-1{
+    text-decoration: underline;
+}
+
+#button-2:hover{text-decoration: underline;}
+
+#button-3:hover{text-decoration: underline;}
+
+.video{
+    grid-row-start: 1;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+#video{
+    position: relative;
+    left: 100px;
+    top:100px;
+    height: 350px;
+    width: 600px;
+}
+
+#description{
+    color: white;
+    position: relative;
+    top:100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    padding:15px;
+}
+
+.droite{
+    overflow: auto;
+    padding:130px;
+    grid-row-start: 1;
+    grid-row-end: 13;
+    grid-column-start: 6;
+    grid-column-end: 13;
+}
+
+#titre2{
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.txt{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+#liste{
+    list-style-type: none;
+}

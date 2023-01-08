@@ -1,0 +1,5 @@
+
+Le site se présente sous forme de 12 colonnes grâce à la propiété display:grid
+Les polices et proportions sont adaptées en fonction des éléments.
+
+Le site contient des citations ( dont une en anglais ), plusieurs titres hiérarchisés ainsi qu'un menu de navigation reactif.

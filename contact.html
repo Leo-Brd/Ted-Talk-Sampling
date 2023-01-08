@@ -1,0 +1,81 @@
+<!-- La page de contact est la même que la page d'accueil mais le contenu de la div "droite" est modifié -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/style_contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <img id="logo" src="images/logo.png">
+            </div>
+            <div class="titre">
+                <h1 id="titre">Comment le sampling a-t-il transformé la musique ?</h1>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="button-1">
+                <a class="button" id="button-1" href="index.html">Accueil</a>
+            </div>
+            <div class="button-2">
+                <a class="button" id="button-2" href="auteur.html">Mark Ronson</a>
+            </div>
+            <div class="button-3">
+                <a class="button" id="button-3" href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        <main class="main">
+            <div class="video">
+                <video id="video" controls width="500">
+                    <source src="2014-mark-ronson-006-5000k.mp4" type="video/mp4">
+                </video>
+                <p id="description"><q> Le sampling n'est pas un détournement de la vague nostalgique </q> affirme Mark Ronson. Au contraire, il s'agit de s'introduire dans la narration musicale tout en lui permettant d'évoluer. Découvrez le DJ mixer 15 TED Talks en une omelette audio-visuelle, et retracez l'évolution du hit de Doug E. Fresh and Slick Rick's,  <q>La Di Da Di</q> . Chaque génération qui a suivi la création de ce hit en 1984 l'a ré-inventé et se l'est ré-approprié.</p>
+            </div>
+            <div class="droite">
+                <form id="formulaire">
+                    <h1>Pour avoir plus d'informations :</h1><br>
+                    <div class="info">
+                        <label for="nom">Entrez votre nom :</label>
+                        <input type="text" id="nom">
+                    </div><br>
+                    <div class="info">
+                        <label for="prenom">Entrez votre prénom :</label>
+                        <input type="text" id="prenom">
+                    </div><br>
+                    <div class="info">
+                        <label for="age">Entrez votre âge :</label>
+                        <input type="number" id="age">
+                    </div><br>
+                    <div class="info">
+                        <label for="mail">Entrez votre adresse email :</label>
+                        <input type="email" id="mail">
+                    </div><br>
+                    <div class="info">
+                        <label for="infos">Voulez-vous recevoir les dernières informations au sujet de Ted Talk régulièrement ?</label>
+                        <label><input type="radio" value="Oui" id="infos">Oui</label>
+                        <label><input type="radio" value="Non" id="infos">Non</label>
+                    </div><br>
+                    <div class="info">
+                        <a href="index.html"><input type="button" value="Valider" id="bouton"></a>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* Voici les feuilles de style qui changent lorsque l'on charge la page de contact */
+
+#button-1{text-decoration: none;}
+#button-2{text-decoration: none;}
+#button-3{text-decoration: underline;}
+
+#button-1:hover{text-decoration: underline;}
+#button-2:hover{text-decoration: underline;}
+
+#formulaire{
+    text-align: center;
+    color: white;
+}
+
+#bouton{
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 1rem;
+}
+
+#bouton:hover{text-decoration: underline;}

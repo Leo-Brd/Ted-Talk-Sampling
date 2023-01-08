@@ -1,0 +1,41 @@
+/* Voici les feuilles de style qui changent lorsque l'on charge la page de l'auteur */
+
+#button-1{text-decoration: none;}
+#button-3{text-decoration: none;}
+#button-2{text-decoration: underline;}
+
+#button-1:hover{text-decoration: underline;}
+#button-3:hover{text-decoration: underline;}
+
+.citation{
+    float: left;
+    margin-bottom: 80px;
+}
+
+#citation{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo{
+    float: left;
+    margin-right: 20px;
+}
+
+#photo{
+    height: 340px;
+    width: 250px;
+}
+
+.paragraphe{
+    margin-left: 20px;
+}
+
+#paragraphe{
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
